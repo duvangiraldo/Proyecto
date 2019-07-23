@@ -1,0 +1,19 @@
+img{
+
+    width:250px;
+    height:250px;
+   
+}
+
+.texto{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #006666;
+}
+
+body{
+
+    background-color: white;
+}
+
