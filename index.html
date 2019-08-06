@@ -1,8 +1,10 @@
 <html>
 
     <head>
-        <meta charset="utf-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fundación Pazifico</title>
+        <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/styles.css">
         <script type="text/javascript" src="script/main.js"></script>
 
@@ -11,14 +13,23 @@
 
     <body>
 
-        <img src="img/logo.jpg">
+        <table>
+            <td>
+                <td>
+                    <img src="img/logo.png">
+                </td>
+                <td> 
+                    <ul>
+                        <li><a href="javascript:void(0);" id="btn_1" onclick="cambiarSeccion(this);">Inicio</a></li>
+                        <li><a href="javascript:void(0);" id="btn_2" onclick="cambiarSeccion(this);">¿Quines somos?</a></li>
+                        <li><a href="javascript:void(0);" id="btn_3" onclick="cambiarSeccion(this);">¿Que hacemos?</a></li>
+                        <li><a href="javascript:void(0);" id="btn_4" onclick="cambiarSeccion(this);">Contacto</a></li>
+                    </ul>
 
-        <nav>
-            <a href="javascript:void(0);" id="btn_1" onclick="cambiarSeccion(this);">Inicio</a>
-            <a href="javascript:void(0);" id="btn_2" onclick="cambiarSeccion(this);">¿Quienes somos?</a>
-            <a href="javascript:void(0);" id="btn_3" onclick="cambiarSeccion(this);">¿Que hacemos?</a>
-            <a href="javascript:void(0);" id="btn_4" onclick="cambiarSeccion(this);">Contacto</a>
-        </nav>
+                </td>
+
+            </td>
+        </table>
 
         <section id="section_1">
             <img class="imagen" src="img/Inicio.jpg">

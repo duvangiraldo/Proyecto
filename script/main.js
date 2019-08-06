@@ -23,10 +23,19 @@ function init(){
 
 
 }
+function ocultar(){
+
+    for(let i=1;i<secciones.length;i++){
+
+        secciones[i].classList.add("ocultar");
+    }
+    
+}
 
 function cambiarSeccion(target){
 
     let id=target.id.split("_")[1];
+    ocultar();
     secciones[id].classList.remove("ocultar");
 }
 
