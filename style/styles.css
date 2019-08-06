@@ -19,6 +19,16 @@ body{
 }
 
 
+a{
 
+    text-decoration:none;
+    display:inline;
+    border-radius:10px;
+    background:white;
+    color:#006666;
+    text-align:center;
+    line-height:100px;  
+
+}
 
 
