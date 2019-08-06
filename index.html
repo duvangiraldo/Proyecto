@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Fundación Pazifico</title>
         <link rel="stylesheet" href="style/styles.css">
+        <script type="text/javascript" src="script/main.js"></script>
+
 
     </head>
 
@@ -12,13 +14,13 @@
         <img src="img/logo.jpg">
 
         <nav>
-            <a href="" id="btn_1">Inicio</a>
-            <a href="" id="btn_2">¿Quienes somos?</a>
-            <a href="" id="btn_3">¿Que hacemos?</a>
-            <a href="" id="btn_4">Contacto</a>
+            <a href="javascript:void(0);" id="btn_1" onclick="cambiarSeccion(this);">Inicio</a>
+            <a href="javascript:void(0);" id="btn_2" onclick="cambiarSeccion(this);">¿Quienes somos?</a>
+            <a href="javascript:void(0);" id="btn_3" onclick="cambiarSeccion(this);">¿Que hacemos?</a>
+            <a href="javascript:void(0);" id="btn_4" onclick="cambiarSeccion(this);">Contacto</a>
         </nav>
 
-        <section>
+        <section id="section_1">
             <img class="imagen" src="img/Inicio.jpg">
             <h2 class="texto">Fútbol Pazifico</h2>
             <p class="texto">
@@ -28,7 +30,7 @@
             </p>
         </section>
 
-        <section>
+        <section id="section_2" class="ocultar">
                 <img class="imagen" src="img/somos.jpg">
                 <h2 class="texto">¿Quienes somos?</h2>
 
@@ -43,8 +45,8 @@
                             <p class="texto">
                                     MISÓN<br>      
                                     A través del deporte y la educación buscamos brindarle a nuestros beneficiarios las herramientas
-                                     necesarias para construir su proyecto de vida encaminado hacia sus sueños y  
-                                     lejos de la violencia.
+                                    necesarias para construir su proyecto de vida encaminado hacia sus sueños y  
+                                    lejos de la violencia.
                             </p>
                         </td>
     
@@ -67,7 +69,7 @@
 
         </section>
 
-        <section>
+        <section id="section_3" class="ocultar">
 
                 <img class="imagen" src="img/hac.jpg">
                 <h2 class="texto">¿Que hacemos?</h2>
@@ -101,7 +103,7 @@
 
         </section>
         
-        <section>
+        <section id="section_4" class="ocultar">
                 <img class="imagen" src="img/cont.jpg">
                 <h2 class="texto">Contacto:</h2>
 
